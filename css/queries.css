@@ -1,0 +1,27 @@
+/* 
+  @media (max-width: 84em)
+  @media (max-width: 75em)
+  @media (max-width: 59em)
+  @media (max-width: 44em)
+  @media (max-width: 34em) 
+  */
+@media screen and (max-height: 450px) {
+  .media-list a {
+    font-size: 18px;
+  }
+  .media-list {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .count-down .my-row div h3 span {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .some-info {
+    margin-bottom: 4rem;
+  }
+}
